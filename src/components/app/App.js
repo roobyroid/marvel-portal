@@ -17,7 +17,7 @@ const SinglePage = lazy(() => import('../pages/SinglePage'));
 
 const App = () => {
 	return (
-		<Router>
+		<Router basename="marvel-portal">
 			<div className="app">
 				<AppHeader />
 				<main>
